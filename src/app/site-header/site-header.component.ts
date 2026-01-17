@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { IUser } from '../user/user.model';
 @Component({
   selector: 'bot-site-header',
   templateUrl: './site-header.component.html',
@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SiteHeaderComponent {
 
+  user: IUser | null = null;
   constructor() { }
 
 }
