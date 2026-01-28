@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IUserCredentials } from '../user.model';
 import { UserService } from '../user.service';
 import { Router } from '@angular/router';
+import { NgForm , NgModel} from '@angular/forms';
 @Component({
   selector: 'bot-sign-in',
   templateUrl: './sign-in.component.html',
